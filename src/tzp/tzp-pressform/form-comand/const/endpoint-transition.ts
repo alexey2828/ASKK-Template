@@ -1,0 +1,15 @@
+export enum endpointTransition {
+  TRANSITION_SEND_TO_INCOMING_CONTROL = '/send-to-incoming-control',
+  TRANSITION_ADD_TO_WAREHOUSE = '/add-to-warehouse',
+  TRANSITION_TAKE_TO_WORK = '/take-to-work',
+  TRANSITION_REGISTER_PRESSFORM_DEFECT = '/register-material-defect',
+  TRANSITION_RETURN_TO_RMC = '/return-to-rmc',
+  TRANSITION_APPLY_AAP = '/apply-aap',
+  TRANSITION_PUT_INTO_AAP_POLYMERIZATION = '/put-into-aap-polymerization',
+  TRANSITION_SEND_TO_AAP_INSPECTION = '/send-to-aap-inspection',
+  TRANSITION_REGISTER_AAP_DEFECT = '/register-aap-defect',
+  TRANSITION_APPLY_KM1 = '/apply-km1',
+  TRANSITION_PUT_INTO_KM1_POLYMERIZATION_WITH_OPEN_CAP = '/put-into-km1-polymerization-with-open-cap',
+  TRANSITION_PUT_INTO_KM1_POLYMERIZATION_WITH_CLOSED_CAP = '/put-into-km1-polymerization-with-closed-cap',
+  TRANSITION_FINISH_KM1_POLYMERIZATION = '/finish-km1-polymerization',
+}

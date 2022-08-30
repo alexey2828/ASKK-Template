@@ -1,0 +1,15 @@
+export enum EEntityType {
+  COMPONENT_BATCH_PLACE = 'ComponentBatchPlace',
+  MIXING = 'Mixing',
+  TZP_PRESSFORM = 'TzpPressform',
+  TZP_DETAIL = 'TzpDetail',
+  TZP_DETAIL_SAMPLE = 'TzpDetailSample',
+  EQUIPMENT_ENGINE_PRESSFORM = 'EquipmentEnginePressform',
+  CASSETS_ENGINE = 'CassettesEnginePressform',
+  NOZZLE_BLOCK = 'NozzleBlock',
+  STABILIZER_BLOCK = 'StabilizerBlock',
+  ENGINE_BOTTOM = 'EngineBottom',
+  ENGINE_PRESSFORM = 'EnginePressform',
+  ENGINE_CASE = 'EngineCase',
+  ENGINE_ROCKET_ENGINE = 'RocketEngine',
+}

@@ -1,0 +1,15 @@
+export enum endpointTransition {
+  TRANSITION_ADD_TO_WAREHOUSE = '/add-to-warehouse',
+  TRANSITION_APPLY_AAP = '/apply-aap',
+  REJECT_FOR_USE = '/reject-for-use',
+  APPROVE_FOR_USE = '/approve-for-use',
+  FIX_AAP_APPLY_NEW_AAP = '/fix-aap-apply-new-aap',
+  FIX_AAP_ROUGHING = '/fix-aap-roughing',
+  TRANSITION_SEND_TO_INCOMING_CONTROL = '/send-to-incoming-control',
+  TRANSITION_TAKE_TO_WORK = '/take-to-work',
+  TRANSITION_REGISTER_PRESSFORM_DEFECT = '/register-material-defect',
+  TRANSITION_RETURN_TO_RMC = '/return-to-rmc',
+  TRANSITION_PUT_INTO_AAP_POLYMERIZATION = '/put-into-aap-polymerization',
+  TRANSITION_SEND_TO_AAP_INSPECTION = '/send-to-aap-inspection',
+  TRANSITION_REGISTER_AAP_DEFECT = '/register-aap-defect',
+}

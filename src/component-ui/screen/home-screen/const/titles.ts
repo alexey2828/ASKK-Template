@@ -1,0 +1,16 @@
+export enum ETitlesTZPPlate {
+  MIXING = 'Змішування',
+  PRESSFORMS_BODY = 'Прес-форма (корпус)',
+  SAMPLE_WITNESS = 'Зразок свідок',
+  COMPONENT_BATCH_PLACE = 'Склад будівлі',
+  ROCKET_ENGINE = 'Двигун ракетний',
+  TZP_PRESSFORMS = 'Прес-форма деталі ТЗП',
+  TZP_DETAILS = 'Деталi ТЗП',
+  TZP_PLATE = 'Пластини ТЗП',
+  EQUIPMENT_ENGINE_PRESSFORM = 'Обв`язка корпусу', //'Оснащення (Обв`язка корпусу)',
+  CASSETTES = 'Транспорт прес-форми', //'Касети для транспортування прес-форми',
+  BOTTOM = 'Дно двигуна',
+  STABILIZER_BLOCK = 'Блок стабілізатора',
+  NOZZLE_BLOCK = 'Сопловий блок',
+  ENGINE_CASE = 'Корпус двигуна',
+}

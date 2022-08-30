@@ -1,0 +1,82 @@
+{
+  "name": "askkts",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint ./src --ext .js,.jsx,.ts,.tsx --fix",
+    "format": "prettier --write \"src/**/*.{ts,tsx,scss,css,json}\"",
+    "clear:gradle": "cd android/ && ./gradlew clean && cd ..",
+    "android:devices": "adb devices",
+    "android:assemble:release": "cd android/ && ./gradlew clean assembleRelease && cd ..",
+    "android:assemble:development": "cd android/ && ./gradlew clean assembleDevelopment && cd ..",
+    "android:assemble:production": "export ENVFILE=\".env.prod\" && cd android/ && ./gradlew clean assembleProduction && cd .."
+  },
+  "dependencies": {
+    "@eva-design/eva": "^2.1.1",
+    "@react-native-async-storage/async-storage": "^1.15.5",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/netinfo": "^6.0.2",
+    "@react-native-community/picker": "^1.8.1",
+    "@react-navigation/drawer": "^5.12.5",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/stack": "^6.0.11",
+    "@types/react-swipeable": "^5.2.0",
+    "@ui-kitten/components": "^5.1.1",
+    "FormData": "^0.10.1",
+    "date-fns": "^2.22.1",
+    "form-data": "^2.3.3",
+    "moment": "^2.29.1",
+    "query-string": "^6.14.1",
+    "react": "17.0.2",
+    "react-native": "0.66.3",
+    "react-native-gesture-handler": "^2.1.0",
+    "react-native-honeywell-scanner": "^2.0.0",
+    "react-native-modal": "^11.7.0",
+    "react-native-paper": "^4.7.2",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.10.1",
+    "react-native-svg": "^12.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^17.0.2",
+    "@types/react": "^17.0.37",
+    "@types/react-native": "^0.66.9",
+    "@types/react-native-honeywell-scanner": "^1.0.0",
+    "@types/react-test-renderer": "^17.0.1",
+    "@typescript-eslint/parser": "^5.8.0",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "husky": "^6.0.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "prettier": "2.5.1",
+    "react-test-renderer": "17.0.2",
+    "typescript": "^4.4.4"
+  },
+  "resolutions": {
+    "@types/react": "^16"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
